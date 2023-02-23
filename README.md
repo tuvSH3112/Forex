@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dashboard</title>
 	<link rel="stylesheet" type="text/css" href="dashboard.css">
 </head>
 <body>
