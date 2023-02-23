@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="dashboard.css">
+</head>
+<body>
+    <div class="page-bar">
+        <ul>
+          <li><a href="trade_entry.html">Trade Entry</a></li>
+          <li><a href="#">Dashboard</a></li>
+        </ul>
+      </div>
+      
+	</div>
+	<div class="container">
+		<div class="tabs">
+			<a href="trade_entry.html">Trade Entry</a>
+		</div>
+		<div class="profit">
+			<h2>Profit:</h2>
+			<p id="profitAmount">$0</p>
+		</div>
+		<table>
+			<thead>
+				<tr>
+					<th>Date</th>
+					<th>Symbol</th>
+					<th>Entry</th>
+					<th>Exit</th>
+					<th>Size $</th>
+					<th>Side</th>
+					<th>Return $</th>
+					<th>Setup</th>
+					<th>Result</th>
+				</tr>
+			</thead>
+			<tbody id="tradeTableBody">
+			</tbody>
+		</table>
+	</div>
+
+	<script type="text/javascript" src="dashboard.js"></script>
+</body>
+</html>

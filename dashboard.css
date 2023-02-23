@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+
+.container {
+	margin: 20px;
+}
+
+.tabs {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.tabs a {
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.tabs a:hover {
+	background-color: #666;
+}
+
+.profit {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.profit h2 {
+	margin-right: 10px;
+}
+
+.profitAmount {
+	font-size: 24px;
+	font-weight: bold;
+	color: green;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+thead {
+	background-color: #333;
+	color: #fff;
+}
+
+th, td {
+	padding: 10px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
